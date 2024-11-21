@@ -2,10 +2,10 @@ from src.main import add,substract,multiply,divide
 
 
 def test_add():
-    assert add(4,5) == 95
-    assert add(-1,6) == 55
+    assert add(4,5) == 9
+    assert add(-1,6) == 5
     assert add(7,-8) == -1
-    assert add(-6,-1) == -5
+    assert add(-6,-1) == -7
 
 def test_substract():
     assert substract(4,5) == -1
